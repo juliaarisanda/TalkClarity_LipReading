@@ -1,5 +1,5 @@
 imageio==2.5.0
-opencv_python==4.8.0.76
+opencv_python
 streamlit
 tensorflow==2.10.1
 tensorflow_gpu==2.10.0
