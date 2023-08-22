@@ -29,7 +29,7 @@ st.markdown(
 with st.sidebar: 
     # image_path = os.path.join('logoss.jpg')
     # Menggunakan path relatif untuk merujuk ke file gambar
-    image_path = 'logoss.png'
+    image_path = 'logoss.jpg'
     st.image(image_path, width=250)
     st.title('TalkClarity')
     st.info('Kenali gerakan bibir menjadi sebuah teks dengan membaca dari gerakan bibir.')
