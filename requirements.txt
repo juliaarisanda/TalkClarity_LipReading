@@ -1,5 +1,4 @@
 imageio==2.5.0
-opencv-python
 opencv-python-headless
 streamlit
 tensorflow==2.10.1
