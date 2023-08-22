@@ -27,7 +27,11 @@ st.markdown(
 
 # Setup the sidebar
 with st.sidebar: 
-    image_path = '../data/logoss.png'
+    # Dapatkan direktori kerja aplikasi
+    app_dir = os.getcwd()
+
+    # Gunakan jalur relatif yang lengkap
+    image_path = os.path.join(app_dir, 'logoss.png')
     st.image(image_path, width=250)
     st.title('TalkClarity')
     st.info('Kenali gerakan bibir menjadi sebuah teks dengan membaca dari gerakan bibir.')
