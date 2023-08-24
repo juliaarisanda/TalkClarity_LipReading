@@ -29,7 +29,7 @@ st.markdown(
 # Setup sidebar
 with st.sidebar:
    
-    st.image(image_path, width=250)
+    
     st.title('TalkClarity')
     st.info('Kenali gerakan bibir menjadi sebuah teks dengan membaca dari gerakan bibir.')
 
